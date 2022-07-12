@@ -1,0 +1,24 @@
+@import "../variables/variables.scss";
+
+body{
+    background-color: $primary-color;
+}
+
+.cardContainer{
+    background-color: $card-bg-color;
+
+}
+
+.modalBackground{
+    background-color: $card-bg-color;
+}
+
+.cardContainer:hover{
+    border: 2px groove #dadada;
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: $shadow-color 10px 10px 10px 10px;
+
+}
+
+

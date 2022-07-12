@@ -1,0 +1,20 @@
+.pageNavbar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pageNavbar h2:hover{
+    cursor: pointer;
+}
+
+.foodNavBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    gap: 5px;
+}
+
+.foodNavBar input{
+    width: 15%;
+}

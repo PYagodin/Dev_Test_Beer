@@ -1,0 +1,86 @@
+.cardContainer{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    display: block;
+    border: 0.5px groove #e7e7e7;
+    border-radius: 3%;
+    box-shadow: black 0px 5px 15px;
+} 
+
+/* .cardContainer:hover{
+    border: 2px groove #dadada;
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 10px 10px;
+} */
+
+.cardTitleContainer, .cardImageContainer{
+    /* border-style: solid; */
+    display: inline-block;
+    border: 0.5px solid #e7e7e7;
+    padding: 0;
+    text-align: center;
+    display: block;
+    overflow: auto;
+    font-size: 1vw;
+    white-space: nowrap;
+}
+
+.cardTitleContainer:hover{
+    cursor: pointer;
+}
+
+
+.cardImageContainer{
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.cardImageContainer img{
+    max-width:  100%;
+    max-height: 200px;
+    min-height: 200px;
+    padding:    .10rem;
+    
+}
+
+.cardImageContainer:hover{
+    cursor: pointer;
+}
+
+.cardGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+}
+
+.Favorite{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.ratingSelect{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.ratingSelect h5{
+    margin-top: 0.5rem;
+}
+
+.ratingSelect .select{
+    padding: 3px;
+}
+
+.remoBtndiv{
+    display: flex;
+    justify-content: center;
+}

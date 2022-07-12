@@ -1,0 +1,101 @@
+.modalBackground{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer{
+    width: 700px;
+    height: 700px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) -2px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    font-family: Cursive; 
+}
+
+.removeModalContainer{
+    width: 500px;
+    height: 150px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    font-family: Cursive; 
+}
+
+.removeModalButtons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.modalHeader{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    /* font-size: 2vw; */
+}
+
+.modalBody img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 10%; 
+}
+
+.modalBody{
+    display: flex;
+    font-size: 10px;
+    text-align: center;
+    max-height: 80%;
+}
+
+.modalFooter{
+    flex: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal_btn{
+    width: 150px; 
+    height: 45px; 
+    font-size: 10px;
+    background-color: crimson;
+    color: white;
+    border-radius: 80px;
+    border-style: none;
+
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 3px;
+}
+
+.foodPairingInfo{
+    text-align: left;
+}
+
+.modalInfo{
+    max-width: 70%;
+}
+
+.modalImage{
+    max-width: 30%;
+    max-height: 70%;
+    
+    
+
+}
